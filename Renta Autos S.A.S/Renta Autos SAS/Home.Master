@@ -54,25 +54,25 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="Reservas.aspx">
                             <i class="fa fa-id-card"></i>
                             <span>Reservar Auto</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="Rentar.aspx">
                             <i class="fa fa-handshake-o"></i>
                             <span>Rentar Auto</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="ReportesAutos.aspx">
                             <i class="fa fa-bar-chart"></i>
                             <span>Reportes</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="PanelGeneral">
                             <i class="fa fa-arrow-circle-right"></i>
                             <span>Salir</span>
                         </a>

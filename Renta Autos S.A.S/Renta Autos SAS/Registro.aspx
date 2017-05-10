@@ -36,7 +36,8 @@
                 </div>
             </div>
             <div class="footer ">
-                <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" CssClass="btn bg-olive btn-block" OnClick="btnRegistrar_Click" />
+                <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" CssClass="btn bg-olive btn-block" OnClick="btnRegistrar_Click" Visible="False" />
+                <asp:Button ID="btnGuardar" runat="server" Text="Guardar" CssClass="btn bg-olive btn-block" OnClick="btnRegistrar_Click" />
             </div>
         </form>
     </div>
