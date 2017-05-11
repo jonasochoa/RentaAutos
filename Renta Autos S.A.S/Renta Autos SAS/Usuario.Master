@@ -42,7 +42,7 @@
                 </div>
                 <ul class="sidebar-menu">
                     <li class="active">
-                        <a href="#">
+                        <a href="PanelGeneral.aspx">
                             <i class="fa fa-dashboard"></i>
                             <span>Panel General</span>
                         </a>
@@ -54,7 +54,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="ReservasUsuario.aspx">
+                        <a href="Reservas.aspx">
                             <i class="fa fa-id-card"></i>
                             <span>Reservar Auto</span>
                         </a>

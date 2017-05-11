@@ -66,8 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\carro2.jpg" />
     <Content Include="Cliente.aspx" />
     <Content Include="HistorialRentas.aspx" />
+    <Content Include="img\carros.jpg" />
     <Content Include="packages.config" />
     <Content Include="css\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="css\fonts\glyphicons-halflings-regular.ttf" />
@@ -85,7 +87,6 @@
     <Content Include="Rentar.aspx" />
     <Content Include="ReportesAutos.aspx" />
     <Content Include="Reservas.aspx" />
-    <Content Include="ReservasUsuario.aspx" />
     <Content Include="Usuario.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -479,13 +480,6 @@
     </Compile>
     <Compile Include="Reservas.aspx.designer.cs">
       <DependentUpon>Reservas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ReservasUsuario.aspx.cs">
-      <DependentUpon>ReservasUsuario.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ReservasUsuario.aspx.designer.cs">
-      <DependentUpon>ReservasUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Usuario.Master.cs">
       <DependentUpon>Usuario.Master</DependentUpon>
