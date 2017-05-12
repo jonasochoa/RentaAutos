@@ -15,7 +15,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Renta_Autos_SAS</RootNamespace>
     <AssemblyName>Renta Autos SAS</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,26 +49,24 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\carro2.jpg" />
-    <Content Include="Cliente.aspx" />
     <Content Include="HistorialRentas.aspx" />
     <Content Include="img\carros.jpg" />
     <Content Include="packages.config" />
@@ -84,6 +83,7 @@
     <Content Include="img\credit\Thumbs.db" />
     <Content Include="img\Thumbs.db" />
     <Content Include="Home.Master" />
+    <Content Include="PerfilUsuario.aspx" />
     <Content Include="Rentar.aspx" />
     <Content Include="ReportesAutos.aspx" />
     <Content Include="Reservas.aspx" />
@@ -410,19 +410,19 @@
     <Content Include="Registro.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cliente.aspx.cs">
-      <DependentUpon>Cliente.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Cliente.aspx.designer.cs">
-      <DependentUpon>Cliente.aspx</DependentUpon>
-    </Compile>
     <Compile Include="HistorialRentas.aspx.cs">
       <DependentUpon>HistorialRentas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="HistorialRentas.aspx.designer.cs">
       <DependentUpon>HistorialRentas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PerfilUsuario.aspx.cs">
+      <DependentUpon>PerfilUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfilUsuario.aspx.designer.cs">
+      <DependentUpon>PerfilUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="RegistrarAuto.aspx.cs">
       <DependentUpon>RegistrarAuto.aspx</DependentUpon>

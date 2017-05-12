@@ -10,7 +10,7 @@
 namespace Renta_Autos_SAS {
     
     
-    public partial class Usuario {
+    public partial class Site1 {
         
         /// <summary>
         /// Control head.

@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Usuario.master.cs" Inherits="Renta_Autos_SAS.Usuario" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Usuario.Master.cs" Inherits="Renta_Autos_SAS.Site1" %>
 
 <!DOCTYPE html>
 
@@ -34,7 +34,7 @@
             <section class="sidebar">
                 <div class="user-panel">
                     <div class="pull-left image">
-                        <img src="img/user-bg.png" class="img-circle" alt="User Image" />
+                        <img src="img/avatar5.png" class="img-circle" alt="User Image" />
                     </div>
                     <div class="pull-left info">
                         <p>Bienvenido Sr(a) Usuario(a)</p>
@@ -42,32 +42,32 @@
                 </div>
                 <ul class="sidebar-menu">
                     <li class="active">
-                        <a href="PanelGeneral.aspx">
+                        <a href="PerfilUsuario.aspx">
                             <i class="fa fa-dashboard"></i>
-                            <span>Panel General</span>
+                            <span>Perfil</span>
+                             
                         </a>
                     </li>
                     <li>
-                        <a href="Usuario.aspx">
-                            <i class="fa fa-car"></i>
-                            <span>Usuario</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Reservas.aspx">
+                        <a href="#">
                             <i class="fa fa-id-card"></i>
                             <span>Reservar Auto</span>
                         </a>
                     </li>
                     <li>
-                        <a href="HistorialRentas.aspx">
+                        <a href="#">
                             <i class="fa fa-handshake-o"></i>
+                            <span>Rentar Auto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="HistorialRentas.aspx">
+                            <i class="fa fa-arrow-circle-right"></i>
                             <span>Historial Rentas</span>
                         </a>
                     </li>
-                 
-                    <li>
-                        <a href="PanelGeneral">
+                     <li>
+                        <a href="Login.aspx">
                             <i class="fa fa-arrow-circle-right"></i>
                             <span>Salir</span>
                         </a>
@@ -79,7 +79,7 @@
         <aside class="right-side">
         <section class="content-header">
             <h1>
-                <asp:Label ID="lblOpcionMenu" runat="server" Text="Panel General"></asp:Label>
+                <asp:Label ID="lblOpcionMenu" runat="server" Text="USUARIO"></asp:Label>
             </h1>
         </section>
         <section class="content">

@@ -58,7 +58,15 @@
                             </asp:DropDownList>
                         </div>
                         <div class="form-group">
-                            <label>MODELO AUTOMVIL</label>
+                            <asp:Label ID="Label1" runat="server" Text="MARCA"></asp:Label>
+                            <label>
+                            <br />
+                            <br />
+                            <asp:DropDownList ID="DLISTMARCA" runat="server">
+                            </asp:DropDownList>
+                            <br />
+                            <br />
+                            MODELO AUTOMVIL</label>&nbsp;
                         </div>
                         <div class="form-group">
                             <asp:TextBox ID="txtModelo" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
