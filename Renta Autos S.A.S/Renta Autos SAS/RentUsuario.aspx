@@ -1,13 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="Reservas.aspx.cs" Inherits="Renta_Autos_SAS.Reservas" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Usuario.Master" AutoEventWireup="true" CodeBehind="RentUsuario.aspx.cs" Inherits="Renta_Autos_SAS.RentUsuario" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   <section class="content-header">
-        <h1 style="text-align:center">RESERVA DE AUTOS</h1>
+    <section class="content-header">
+        <h1 style="text-align:center">RENTAR AUTOS</h1>
     </section>
     <section class="content">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-10">
                 <div class="box-primary">
                     <div class="box-body">
                         <div class="form-group">
@@ -20,7 +20,7 @@
                             <label>IDENTIFICACION</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtId" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtIdU" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>FECHA DE RETIRO</label></div>
@@ -40,10 +40,10 @@
                             <asp:Calendar ID="CldEntrega" runat="server"></asp:Calendar>
                         </div>
                         <div class="form-group">
-                            <label>NUMERO DE PASAJEROS</label>
+                            <label>KILOMETRAGE</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtPasa" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtKlm" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>MODO DE PAGO</label>
@@ -58,7 +58,15 @@
                             </asp:DropDownList>
                         </div>
                         <div class="form-group">
-                            <label>MODELO AUTOMVIL</label>
+                            <asp:Label ID="Label1" runat="server" Text="MARCA"></asp:Label>
+                            <label>
+                            <br />
+                            <br />
+                            <asp:DropDownList ID="DLISTMARCA" runat="server">
+                            </asp:DropDownList>
+                            <br />
+                            <br />
+                            MODELO AUTOMVIL</label>&nbsp;
                         </div>
                         <div class="form-group">
                             <asp:TextBox ID="txtModelo" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
@@ -70,9 +78,11 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
-                <asp:Button ID="Reservar" runat="server" CssClass="btn btn-primary btn-block" Text="Reservar" />
+                <asp:Button ID="Button1" runat="server" CssClass="btn btn-primary btn-block" Text="Registrar" />
             </div>
             <div class="col-md-4"></div>
         </div>
     </section>
+
+
 </asp:Content>

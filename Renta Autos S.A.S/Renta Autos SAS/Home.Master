@@ -42,7 +42,7 @@
                 </div>
                 <ul class="sidebar-menu">
                     <li class="active">
-                        <a href="#">
+                        <a href="PanelGeneral.aspx">
                             <i class="fa fa-dashboard"></i>
                             <span>Panel General</span>
                         </a>
@@ -72,7 +72,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="PanelGeneral">
+                        <a href="Login.aspx">
                             <i class="fa fa-arrow-circle-right"></i>
                             <span>Salir</span>
                         </a>

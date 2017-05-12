@@ -1,13 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="Reservas.aspx.cs" Inherits="Renta_Autos_SAS.Reservas" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Usuario.Master" AutoEventWireup="true" CodeBehind="ResUsuario.aspx.cs" Inherits="Renta_Autos_SAS.ResUsuario" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   <section class="content-header">
+    <section class="content-header">
         <h1 style="text-align:center">RESERVA DE AUTOS</h1>
     </section>
     <section class="content">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-10">
                 <div class="box-primary">
                     <div class="box-body">
                         <div class="form-group">

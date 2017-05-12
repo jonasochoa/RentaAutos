@@ -85,8 +85,10 @@
     <Content Include="Home.Master" />
     <Content Include="PerfilUsuario.aspx" />
     <Content Include="Rentar.aspx" />
+    <Content Include="RentUsuario.aspx" />
     <Content Include="ReportesAutos.aspx" />
     <Content Include="Reservas.aspx" />
+    <Content Include="ResUsuario.aspx" />
     <Content Include="Usuario.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -467,6 +469,13 @@
     <Compile Include="Rentar.aspx.designer.cs">
       <DependentUpon>Rentar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="RentUsuario.aspx.cs">
+      <DependentUpon>RentUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RentUsuario.aspx.designer.cs">
+      <DependentUpon>RentUsuario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ReportesAutos.aspx.cs">
       <DependentUpon>ReportesAutos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -480,6 +489,13 @@
     </Compile>
     <Compile Include="Reservas.aspx.designer.cs">
       <DependentUpon>Reservas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResUsuario.aspx.cs">
+      <DependentUpon>ResUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResUsuario.aspx.designer.cs">
+      <DependentUpon>ResUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Usuario.Master.cs">
       <DependentUpon>Usuario.Master</DependentUpon>

@@ -21,10 +21,7 @@ namespace Renta_Autos_SAS
                     Response.Write("<script>alert('USUARIO CORRECTO')</script>");
                     Response.Redirect("Cliente.aspx");
                 }
-                else
-                {
-                    Response.Write("<script>alert('USUARIO INCORRECTO')</script>");
-                }
+             
 
             }
 
