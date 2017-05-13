@@ -20,7 +20,7 @@
                             <label>IDENTIFICACION</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtId" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtId" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>FECHA DE RETIRO</label></div>
@@ -43,7 +43,7 @@
                             <label>NUMERO DE PASAJEROS</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtPasa" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtPasa" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>MODO DE PAGO</label>
@@ -61,7 +61,7 @@
                             <label>MODELO AUTOMVIL</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtModelo" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtModelo" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
                         </div>
                     </div>
                 </div>

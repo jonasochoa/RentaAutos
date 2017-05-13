@@ -20,11 +20,11 @@
                             <label>IDENTIFICACION</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtId" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtId" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>TIEMPO DE PRESTADO</label>
-                             <asp:TextBox ID="txtTiempo" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                             <asp:TextBox ID="txtTiempo" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
                         </div>
                     </div>
                 </div>
@@ -34,13 +34,13 @@
                     <div class="box-body">
                         <div class="form-group">
                               <label>VALOR A PAGAR</label>
-                             <asp:TextBox ID="TextBox1" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                             <asp:TextBox ID="TextBox1" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>KILOMETRAGE</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtKlm" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtKlm" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>MODO DE PAGO</label>
@@ -58,7 +58,7 @@
                             <label>MODELO AUTOMVIL</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtModelo" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtModelo" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                     </div>
                 </div>
