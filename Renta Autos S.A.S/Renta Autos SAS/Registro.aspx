@@ -17,22 +17,22 @@
         <form id="form1" runat="server">
             <div class="body bg-gray">
                 <div class="form-group">
-                    <asp:TextBox ID="txtNombre"  runat="server" CssClass="form-control" placeholder="Ingrese Nombre Completo"></asp:TextBox>
+                    <asp:TextBox ID="txtNombre" pattern="^[a-zA-Z_áéíóúñ\s]*$" runat="server" CssClass="form-control" placeholder="Ingrese Nombre Completo" required></asp:TextBox>
                 </div>
                 <div class="form-group">
-                    <asp:TextBox ID="txtDirección"  runat="server" CssClass="form-control" placeholder="Ingrese Dirección de Contacto"></asp:TextBox>
+                    <asp:TextBox ID="txtDirección"  runat="server" CssClass="form-control" placeholder="Ingrese Dirección de Contacto" required></asp:TextBox>
                 </div>
                 <div class="form-group">
-                    <asp:TextBox ID="txtTelefono"  runat="server" CssClass="form-control" placeholder="Ingrese Número de Teléfono"></asp:TextBox>
+                    <asp:TextBox ID="txtTelefono" pattern="^[0-9]*$" runat="server" CssClass="form-control" placeholder="Ingrese Número de Teléfono" required></asp:TextBox>
                 </div>
                 <div class="form-group">
-                    <asp:TextBox ID="txtTarjeta"  runat="server" CssClass="form-control" placeholder="Ingrese Número de Tarjeta de Crédito"></asp:TextBox>
+                    <asp:TextBox ID="txtTarjeta" pattern="^[0-9]*$" runat="server" CssClass="form-control" placeholder="Ingrese Número de Tarjeta de Crédito" required></asp:TextBox>
                 </div>
                 <div class="form-group">
-                    <asp:TextBox ID="txtEmail"  runat="server" CssClass="form-control" placeholder="Ingrese E-mail"></asp:TextBox>
+                    <asp:TextBox ID="txtEmail" type="email" runat="server" CssClass="form-control" placeholder="Ingrese E-mail" required></asp:TextBox>
                 </div>
                 <div class="form-group">
-                    <asp:TextBox ID="txtPassword"  runat="server" CssClass="form-control" placeholder="Ingrese Contraseña"></asp:TextBox>
+                    <asp:TextBox ID="txtPassword" type="password" runat="server" CssClass="form-control" placeholder="Ingrese Contraseña" required></asp:TextBox>
                 </div>
             </div>
             <div class="footer ">

@@ -55,7 +55,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="RenUsuario.aspx">
+                        <a href="RentUsuario.aspx">
                             <i class="fa fa-handshake-o"></i>
                             <span>Rentar Auto</span>
                         </a>

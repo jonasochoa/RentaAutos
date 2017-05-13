@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +12,16 @@ namespace Renta_Autos_SAS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+        }
+
+        protected void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            Administrador administrador = new Administrador();
+            administrador.Kilometraje = this.txtKilometraje.Text;
+            administrador.Marca = this.txtMarca.Text;
+            administrador.NumeroPasajeros = this.txtPasajeros.Text;
+            administrador.TipoUso = this.txtTipo.Text;
 
         }
     }

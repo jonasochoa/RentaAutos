@@ -134,3 +134,79 @@ C:\Users\Camila N\Desktop\ultimo\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bi
 C:\Users\Camila N\Desktop\ultimo\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.csprojResolveAssemblyReference.cache
 C:\Users\Camila N\Desktop\ultimo\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.dll
 C:\Users\Camila N\Desktop\ultimo\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.pdb
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csc.exe
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csc.exe.config
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csc.rsp
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csi.exe
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csi.rsp
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.AppContext.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\vbc.exe
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\vbc.exe.config
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\vbc.rsp
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Renta Autos SAS.dll.config
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Renta Autos SAS.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Renta Autos SAS.pdb
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.csprojResolveAssemblyReference.cache
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.dll
+C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.pdb
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csc.exe
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csc.exe.config
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csc.rsp
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csi.exe
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csi.rsp
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.AppContext.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\vbc.exe
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\vbc.exe.config
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\vbc.rsp
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Renta Autos SAS.dll.config
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Renta Autos SAS.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Renta Autos SAS.pdb
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\EntityFramework.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\EntityFramework.SqlServer.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\EntityFramework.xml
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\EntityFramework.SqlServer.xml
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.csprojResolveAssemblyReference.cache
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.pdb
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Entidades.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Negocio.dll
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Entidades.pdb
+C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Negocio.pdb

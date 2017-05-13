@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
      <section class="content-header">
-        <h1 style="text-align:center">RESENTA AUTO S.A</h1>
+        <h1 style="text-align:center">RENTA AUTOS S.A.S</h1>
     </section>
     <section class="content">
         <div class="row">

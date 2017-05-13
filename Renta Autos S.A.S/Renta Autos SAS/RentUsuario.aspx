@@ -17,10 +17,16 @@
                             <asp:TextBox ID="txtMarca" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label>IDENTIFICACION</label>
+                            <label>DIRECCION</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtIdU" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtDireccion" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                        </div>
+                        <div class="form-group">
+                            <label>TELEFONO</label>
+                        </div>
+                        <div class="form-group">
+                            <asp:TextBox ID="txtTelefono" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>FECHA DE RETIRO</label></div>
@@ -40,10 +46,10 @@
                             <asp:Calendar ID="CldEntrega" runat="server"></asp:Calendar>
                         </div>
                         <div class="form-group">
-                            <label>KILOMETRAGE</label>
+                            <label>CORREO ELECTRONICO</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtKlm" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtKlm" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>MODO DE PAGO</label>
@@ -54,7 +60,6 @@
                                 <asp:ListItem>Targeta Credito</asp:ListItem>
                                 <asp:ListItem>Efectivo</asp:ListItem>
                                 <asp:ListItem>Otro</asp:ListItem>
-                                <asp:ListItem></asp:ListItem>
                             </asp:DropDownList>
                         </div>
                         <div class="form-group">
@@ -69,7 +74,7 @@
                             MODELO AUTOMVIL</label>&nbsp;
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtModelo" runat="server" Text="" CssClass="form-control" OnTextChanged="txtModelo_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtModelo" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
                         </div>
                     </div>
                 </div>

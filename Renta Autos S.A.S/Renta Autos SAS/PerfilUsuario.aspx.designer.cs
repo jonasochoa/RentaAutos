@@ -22,13 +22,13 @@ namespace Renta_Autos_SAS {
         protected global::System.Web.UI.WebControls.TextBox txtNombre;
         
         /// <summary>
-        /// Control Documento.
+        /// Control txtDocumento.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Documento;
+        protected global::System.Web.UI.WebControls.TextBox txtDocumento;
         
         /// <summary>
         /// Control txtSexo.
@@ -40,57 +40,57 @@ namespace Renta_Autos_SAS {
         protected global::System.Web.UI.WebControls.TextBox txtSexo;
         
         /// <summary>
-        /// Control TxttarjetaCredito.
+        /// Control txttarjetaCredito.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxttarjetaCredito;
+        protected global::System.Web.UI.WebControls.TextBox txttarjetaCredito;
         
         /// <summary>
-        /// Control txtApellido.
+        /// Control txtApellidos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtApellido;
+        protected global::System.Web.UI.WebControls.TextBox txtApellidos;
         
         /// <summary>
-        /// Control TxtEmail.
+        /// Control txtCorreo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtCorreo;
         
         /// <summary>
-        /// Control TxtDireccion.
+        /// Control txtDireccion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtDireccion;
+        protected global::System.Web.UI.WebControls.TextBox txtDireccion;
         
         /// <summary>
-        /// Control TxtCelular.
+        /// Control txtCelular.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtCelular;
+        protected global::System.Web.UI.WebControls.TextBox txtCelular;
         
         /// <summary>
-        /// Control Button1.
+        /// Control btnActualizar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnActualizar;
     }
 }

@@ -49,30 +49,39 @@ namespace Renta_Autos_SAS {
         protected global::System.Web.UI.WebControls.TextBox txtKilometraje;
         
         /// <summary>
-        /// Control ddlTipo.
+        /// Control txtTipo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlTipo;
+        protected global::System.Web.UI.WebControls.TextBox txtTipo;
         
         /// <summary>
-        /// Control txtImagen.
+        /// Control txtFechaEntrega.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image txtImagen;
+        protected global::System.Web.UI.WebControls.TextBox txtFechaEntrega;
         
         /// <summary>
-        /// Control Button1.
+        /// Control txtRecibido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.TextBox txtRecibido;
+        
+        /// <summary>
+        /// Control btnRegistrar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnRegistrar;
     }
 }

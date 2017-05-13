@@ -20,7 +20,7 @@
                             <label>DOCUMENTO DE ID</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="Documento" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtDocumento" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>SEXO</label>
@@ -30,7 +30,7 @@
                         </div>
                         <div class="form-group">
                             <label>NUMERO DE TARJETA DE CREDITO</label>
-                            <asp:TextBox ID="TxttarjetaCredito" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txttarjetaCredito" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                     </div>
                 </div>
@@ -39,24 +39,24 @@
                 <div class="box-primary">
                     <div class="box-body">
                         <div class="form-group">
-                            <label>APELLIDO</label>
+                            <label>APELLIDOS</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtApellido" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtApellidos" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label>EMAIL</label>
+                            <label>CORREO ELECTRONICO</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="TxtEmail" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtCorreo" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>DIRECCIÓN</label>
-                            <asp:TextBox ID="TxtDireccion" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtDireccion" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>CELULAR</label>
-                            <asp:TextBox ID="TxtCelular" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtCelular" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         
                     </div>
@@ -66,7 +66,7 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
-                <asp:Button ID="Button1" runat="server" CssClass="btn btn-primary btn-block" Text="ACTUALIZAR" />
+                 <asp:Button ID="btnActualizar" runat="server" CssClass="btn btn-primary btn-block" Text="ACTUALIZAR" OnClick="btnActualizar_Click" />
             </div>
             <div class="col-md-4"></div>
         </div>

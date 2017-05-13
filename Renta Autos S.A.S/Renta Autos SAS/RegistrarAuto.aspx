@@ -23,7 +23,7 @@
                             <asp:TextBox ID="txtModelo" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label># PASAJEROS</label>
+                            <label>NUMERO DE PASAJEROS</label>
                         </div>
                         <div class="form-group">
                             <asp:TextBox ID="txtPasajeros" runat="server" Text="" CssClass="form-control"></asp:TextBox>
@@ -41,25 +41,35 @@
                             <asp:TextBox ID="txtKilometraje" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label>TIPO</label>
+                            <label>TIPO USO </label>
                         </div>
                         <div class="form-group">
-                            <asp:DropDownList ID="ddlTipo" runat="server" CssClass="form-control"></asp:DropDownList>
+                            <asp:TextBox ID="txtTipo" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label>IMAGEN</label>
+                            <label>FECHA DE ENTREGA </label>
                         </div>
                         <div class="form-group">
-                          <asp:Image ID="txtImagen" runat="server" Text="" CssClass="form-control"></asp:Image>
+                            <asp:TextBox ID="txtFechaEntrega" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                           
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <label>FECHA DE RECIBIDO </label>
+                        </div>
+                        <div class="form-group">
+                            <asp:TextBox ID="txtRecibido" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            
+                        </div>
+                        
+                        </div>
+                   
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
-                <asp:Button ID="Button1" runat="server" CssClass="btn btn-primary btn-block" Text="Registrar" />
+                <asp:Button ID="btnRegistrar" runat="server" CssClass="btn btn-primary btn-block" Text="Registrar" OnClick="btnRegistrar_Click" />
             </div>
             <div class="col-md-4"></div>
         </div>
