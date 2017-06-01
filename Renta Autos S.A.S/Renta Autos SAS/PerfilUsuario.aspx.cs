@@ -17,13 +17,13 @@ namespace Renta_Autos_SAS
                 protected void btnActualizar_Click(object sender, EventArgs e)
         {
             
-                Usuario usuario = new Usuario();
-                usuario.Nombres = this.txtNombre.Text;
-                usuario.Apellidos = this.txtApellidos.Text;
-                usuario.Nombres = this.txtNombre.Text;
-                usuario.Direccion = this.txtDireccion.Text;
-                usuario.CorreoElectronico = this.txtCorreo.Text;
-                usuario.NumeroTarjeta = this.txttarjetaCredito.Text;
+                Client cliente = new Client();
+                cliente.Nombres = this.txtNombre.Text;
+                cliente.Apellidos = this.txtApellidos.Text;
+                cliente.Nombres = this.txtNombre.Text;
+                cliente.Direccion = this.txtDireccion.Text;
+                cliente.CorreoElectronico = this.txtCorreo.Text;
+                cliente.NumeroTarjeta = this.txttarjetaCredito.Text;
            
         }
     }

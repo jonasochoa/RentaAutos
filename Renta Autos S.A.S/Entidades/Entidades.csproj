@@ -47,12 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Administrador.cs" />
-    <Compile Include="Usuario.cs" />
+    <Compile Include="Ingresos.cs" />
+    <Compile Include="RegistroRenta.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
+    <Compile Include="UsuarioRentaAuto.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
