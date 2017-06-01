@@ -168,6 +168,7 @@ C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Micr
 C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.csprojResolveAssemblyReference.cache
 C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.dll
 C:\Users\Samsung\Documents\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\obj\Debug\Renta Autos SAS.pdb
+<<<<<<< HEAD
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csc.exe
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csc.exe.config
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\roslyn\csc.rsp
@@ -210,3 +211,5 @@ C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Ent
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Negocio.dll
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Entidades.pdb
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Renta Autos SAS\bin\Negocio.pdb
+=======
+>>>>>>> 2284cb008fa1203fd77da57de8cbe4eac5bfc0ab

@@ -20,6 +20,7 @@
                             <label>DIRECCION</label>
                         </div>
                         <div class="form-group">
+<<<<<<< HEAD
                             <asp:TextBox ID="txtDireccion" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
@@ -27,6 +28,9 @@
                         </div>
                         <div class="form-group">
                             <asp:TextBox ID="txtTelefono" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
+=======
+                            <asp:TextBox ID="txtIdU" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
+>>>>>>> 2284cb008fa1203fd77da57de8cbe4eac5bfc0ab
                         </div>
                         <div class="form-group">
                             <label>FECHA DE RETIRO</label></div>
