@@ -22,13 +22,24 @@
                             <label>DIRECCION</label>
                         </div>
                         <div class="form-group">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0108b805b1c6f28ba50279b016360244458d2416
                             <asp:TextBox ID="txtDireccion" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>TELEFONO</label> </div>
 
                         <div class="form-group">
+<<<<<<< HEAD
                             <asp:TextBox ID="txtTelefono" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+=======
+                            <asp:TextBox ID="txtTelefono" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
+=======
+                            <asp:TextBox ID="txtIdU" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
+>>>>>>> 2284cb008fa1203fd77da57de8cbe4eac5bfc0ab
+>>>>>>> 0108b805b1c6f28ba50279b016360244458d2416
                         </div>
 
                         <div class="form-group">
