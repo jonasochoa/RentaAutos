@@ -47,10 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoDatosUsuario.cs" />
-    <Compile Include="AccesoDeSeguridad.cs" />
-    <Compile Include="UsuarioInitializer.cs" />
+    <Compile Include="AccesoDatosSeguridad.cs" />
+    <Compile Include="AccesoDatosMaestro.cs" />
+    <Compile Include="UsuariosInitializer.cs" />
     <Compile Include="UsuariosContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">

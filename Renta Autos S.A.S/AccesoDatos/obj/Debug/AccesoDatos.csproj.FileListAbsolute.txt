@@ -10,3 +10,6 @@ C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\AccesoDatos\bin\Debug\E
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\AccesoDatos\obj\Debug\AccesoDatos.dll
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\AccesoDatos\obj\Debug\AccesoDatos.pdb
+C:\Users\Lincon\Desktop\RentaAutos-master\Renta Autos S.A.S\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\Lincon\Desktop\RentaAutos-master\Renta Autos S.A.S\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Users\Lincon\Desktop\RentaAutos-master\Renta Autos S.A.S\AccesoDatos\obj\Debug\AccesoDatos.pdb

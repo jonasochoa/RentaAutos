@@ -1,23 +1,23 @@
 ﻿using Entidades;
+using System;
+using System.Collections.Generic;
 using System.Data.Entity;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace AccesoDatos
 {
-    public class UsuariosContext: DbContext
+    public class UsuariosContext : DbContext
     {
-        public UsuariosContext():
-            base("name=UsuariosConnetion")
+        public UsuariosContext()
+            : base("name=UsuariosConnection")
         {
-            Database.SetInitializer(new UsuarioInitializer());
+            Database.SetInitializer(new UsuariosInitializer());
         }
-        public DbSet<Client> UsuariosVarios { get; set; }
-      
-        public DbSet<Administrador> Administradores { get; set; }
-
-        public DbSet<UsuarioRentaAuto> UsuarioRentaAuto { get; set; }
-        public DbSet<RegistroRenta> RegistroRenta { get; set; }
-
-
-
+        public DbSet<Usuario> TiposDocumento { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+    
     }
 }

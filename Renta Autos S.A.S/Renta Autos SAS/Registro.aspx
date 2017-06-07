@@ -20,6 +20,17 @@
                     <asp:TextBox ID="txtNombre" pattern="^[a-zA-Z_áéíóúñ\s]*$" runat="server" CssClass="form-control" placeholder="Ingrese Nombre Completo" required></asp:TextBox>
                 </div>
                 <div class="form-group">
+                    <asp:TextBox ID="TxtApellidos" pattern="^[a-zA-Z_áéíóúñ\s]*$" runat="server" CssClass="form-control" placeholder="Ingrese Apellidos" required></asp:TextBox>
+                </div>
+                 <div class="form-group">
+                        Tipo De Documento&nbsp;
+                        <asp:DropDownList ID="DropDownList1" runat="server" Height="18px" Width="161px">
+                        </asp:DropDownList>
+                    </div>
+                <div class="form-group">
+                    <asp:TextBox ID="TxtDocumento"  runat="server" CssClass="form-control" placeholder="Ingrese Numero de Documento" required></asp:TextBox>
+                </div>
+                <div class="form-group">
                     <asp:TextBox ID="txtDirección"  runat="server" CssClass="form-control" placeholder="Ingrese Dirección de Contacto" required></asp:TextBox>
                 </div>
                 <div class="form-group">

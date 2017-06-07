@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RentaAutosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="255" />
+    <Property Name="Direccion" Type="varchar" MaxLength="255" />
+    <Property Name="Telefono" Type="varchar" MaxLength="1" />
+    <Property Name="TarjetaDeCredito" Type="varchar" MaxLength="255" />
+    <Property Name="Email" Type="varchar" MaxLength="255" />
+    <Property Name="Password" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="RegistroAuto">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Marca" Type="varchar" MaxLength="255" />
+    <Property Name="Modelo" Type="varchar" MaxLength="255" />
+    <Property Name="NumeroDePasajeros" Type="varchar" MaxLength="255" />
+    <Property Name="Kilometraje" Type="varchar" MaxLength="255" />
+    <Property Name="IdTipoDeAuto" Type="int" />
+  </EntityType>
+  <EntityType Name="RentaAutos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaDeRenta" Type="date" />
+    <Property Name="FechaDeEntrega" Type="date" />
+    <Property Name="IdCliente" Type="int" />
+    <Property Name="IdVehiculo" Type="int" />
+  </EntityType>
+  <EntityType Name="TipoDeAuto">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tipo" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK__RegistroA__IdTip__276EDEB3">
+    <End Role="TipoDeAuto" Type="Self.TipoDeAuto" Multiplicity="0..1" />
+    <End Role="RegistroAuto" Type="Self.RegistroAuto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoDeAuto">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RegistroAuto">
+        <PropertyRef Name="IdTipoDeAuto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RentaAuto__IdCli__2D27B809">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="0..1" />
+    <End Role="RentaAutos" Type="Self.RentaAutos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RentaAutos">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RentaAuto__IdVeh__2E1BDC42">
+    <End Role="RegistroAuto" Type="Self.RegistroAuto" Multiplicity="0..1" />
+    <End Role="RentaAutos" Type="Self.RentaAutos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RegistroAuto">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RentaAutos">
+        <PropertyRef Name="IdVehiculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RentaAutosModelStoreContainer">
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RegistroAuto" EntityType="Self.RegistroAuto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentaAutos" EntityType="Self.RentaAutos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoDeAuto" EntityType="Self.TipoDeAuto" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__RegistroA__IdTip__276EDEB3" Association="Self.FK__RegistroA__IdTip__276EDEB3">
+      <End Role="TipoDeAuto" EntitySet="TipoDeAuto" />
+      <End Role="RegistroAuto" EntitySet="RegistroAuto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RentaAuto__IdCli__2D27B809" Association="Self.FK__RentaAuto__IdCli__2D27B809">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="RentaAutos" EntitySet="RentaAutos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RentaAuto__IdVeh__2E1BDC42" Association="Self.FK__RentaAuto__IdVeh__2E1BDC42">
+      <End Role="RegistroAuto" EntitySet="RegistroAuto" />
+      <End Role="RentaAutos" EntitySet="RentaAutos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

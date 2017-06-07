@@ -41,24 +41,11 @@
                             <asp:TextBox ID="txtKilometraje" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label>TIPO USO </label>
+                            <label>TIPO DE AUTO </label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtTipo" runat="server" Text="" CssClass="form-control"></asp:TextBox>
-                        </div>
-                        <div class="form-group">
-                            <label>FECHA DE ENTREGA </label>
-                        </div>
-                        <div class="form-group">
-                            <asp:TextBox ID="txtFechaEntrega" runat="server" Text="" CssClass="form-control"></asp:TextBox>
-                           
-                        </div>
-                        <div class="form-group">
-                            <label>FECHA DE RECIBIDO </label>
-                        </div>
-                        <div class="form-group">
-                            <asp:TextBox ID="txtRecibido" runat="server" Text="" CssClass="form-control"></asp:TextBox>
-                            
+                            <asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="149px">
+                            </asp:DropDownList>
                         </div>
                         
                         </div>

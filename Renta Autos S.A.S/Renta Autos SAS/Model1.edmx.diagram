@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3842fca5f0ad416f861bad76540ba52c" Name="Diagram1">
+        <EntityTypeShape EntityType="RentaAutosModel.Usuarios" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentaAutosModel.RegistroAuto" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentaAutosModel.RentaAutos" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentaAutosModel.TipoDeAuto" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="RentaAutosModel.FK__RentaAuto__IdCli__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="RentaAutosModel.FK__RegistroA__IdTip__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="RentaAutosModel.FK__RentaAuto__IdVeh__2E1BDC42" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

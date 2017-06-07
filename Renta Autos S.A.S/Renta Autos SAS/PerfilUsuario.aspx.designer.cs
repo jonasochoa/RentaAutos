@@ -22,6 +22,15 @@ namespace Renta_Autos_SAS {
         protected global::System.Web.UI.WebControls.TextBox txtNombre;
         
         /// <summary>
+        /// Control ddlTipoDeDocumento.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlTipoDeDocumento;
+        
+        /// <summary>
         /// Control txtDocumento.
         /// </summary>
         /// <remarks>
@@ -31,13 +40,13 @@ namespace Renta_Autos_SAS {
         protected global::System.Web.UI.WebControls.TextBox txtDocumento;
         
         /// <summary>
-        /// Control txtSexo.
+        /// Control txtPassword.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSexo;
+        protected global::System.Web.UI.WebControls.TextBox txtPassword;
         
         /// <summary>
         /// Control txttarjetaCredito.

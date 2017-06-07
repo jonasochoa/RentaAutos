@@ -20,7 +20,7 @@
                             <label>IDENTIFICACION</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtId" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
+                            <asp:TextBox ID="txtId" runat="server" Text="" CssClass="form-control" OnTextChanged="txtId_TextChanged" ></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>FECHA DE RETIRO</label></div>

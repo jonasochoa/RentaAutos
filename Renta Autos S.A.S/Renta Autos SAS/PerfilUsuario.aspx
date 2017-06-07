@@ -17,16 +17,21 @@
                             <asp:TextBox ID="txtNombre" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
+                            <label>TIPO DE DOCUMENTO</label>
+                                      <asp:DropDownList ID="ddlTipoDeDocumento" runat="server" Height="28px" Width="100px">
+                        </asp:DropDownList>
+                    </div>
+                        <div class="form-group">
                             <label>DOCUMENTO DE ID</label>
                         </div>
                         <div class="form-group">
                             <asp:TextBox ID="txtDocumento" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label>SEXO</label>
+                            <label>PASSWORD</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtSexo" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtPassword" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>NUMERO DE TARJETA DE CREDITO</label>

@@ -7,3 +7,6 @@ C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Entidades\bin\Debug\Ent
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Entidades\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Entidades\obj\Debug\Entidades.dll
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Lincon\Desktop\RentaAutos-master\Renta Autos S.A.S\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Lincon\Desktop\RentaAutos-master\Renta Autos S.A.S\Entidades\obj\Debug\Entidades.dll
+C:\Users\Lincon\Desktop\RentaAutos-master\Renta Autos S.A.S\Entidades\obj\Debug\Entidades.pdb

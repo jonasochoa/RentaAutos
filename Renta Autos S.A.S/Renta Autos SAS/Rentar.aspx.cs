@@ -13,5 +13,10 @@ namespace Renta_Autos_SAS
         {
 
         }
+
+        protected void txtId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

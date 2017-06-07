@@ -12,4 +12,6 @@ C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Negocio\bin\Debug\Entit
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Negocio\obj\Debug\Negocio.dll
 C:\Users\Camila N\Desktop\2\RentaAutos\Renta Autos S.A.S\Negocio\obj\Debug\Negocio.pdb
-C:\Users\Camila N\Desktop\Nueva carpeta (2)\RentaAutos\Renta Autos S.A.S\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Lincon\Desktop\RentaAutos-master\Renta Autos S.A.S\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Lincon\Desktop\RentaAutos-master\Renta Autos S.A.S\Negocio\obj\Debug\Negocio.dll
+C:\Users\Lincon\Desktop\RentaAutos-master\Renta Autos S.A.S\Negocio\obj\Debug\Negocio.pdb

@@ -46,12 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administrador.cs" />
-    <Compile Include="Ingresos.cs" />
-    <Compile Include="RegistroRenta.cs" />
-    <Compile Include="Client.cs" />
+    <Compile Include="TipoDocumento.cs" />
+    <Compile Include="RentaAuto.cs" />
+    <Compile Include="TipoDeAuto.cs" />
+    <Compile Include="RegistroAuto.cs" />
+    <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UsuarioRentaAuto.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

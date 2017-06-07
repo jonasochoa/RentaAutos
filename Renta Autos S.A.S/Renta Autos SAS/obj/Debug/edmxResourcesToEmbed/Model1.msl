@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RentaAutosModelStoreContainer" CdmEntityContainer="RentaAutosEntities">
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="RentaAutosModel.Usuarios">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="TarjetaDeCredito" ColumnName="TarjetaDeCredito" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegistroAuto">
+      <EntityTypeMapping TypeName="RentaAutosModel.RegistroAuto">
+        <MappingFragment StoreEntitySet="RegistroAuto">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="NumeroDePasajeros" ColumnName="NumeroDePasajeros" />
+          <ScalarProperty Name="Kilometraje" ColumnName="Kilometraje" />
+          <ScalarProperty Name="IdTipoDeAuto" ColumnName="IdTipoDeAuto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RentaAutos">
+      <EntityTypeMapping TypeName="RentaAutosModel.RentaAutos">
+        <MappingFragment StoreEntitySet="RentaAutos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FechaDeRenta" ColumnName="FechaDeRenta" />
+          <ScalarProperty Name="FechaDeEntrega" ColumnName="FechaDeEntrega" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="IdVehiculo" ColumnName="IdVehiculo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoDeAuto">
+      <EntityTypeMapping TypeName="RentaAutosModel.TipoDeAuto">
+        <MappingFragment StoreEntitySet="TipoDeAuto">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
